@@ -46,4 +46,4 @@ puts GearWrapper.gear(
   wheel: Wheel.new(26, 1.5)
 ).gear_inches
 
- #137.0909090909091
+# 137.0909090909091

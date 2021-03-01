@@ -16,7 +16,7 @@ One can write loosely coupled code using the above coding techniques
    -inject dependencies
    -isolate dependencies
    -remove argument-order dependecies
-      *use of keyword arguments is asimple way to avoid depending on positional arguments.
+      *use of keyword arguments is a simple way to avoid depending on positional arguments.
       *keyword arguments offer several adavantages, args can be passed in any order and one can set defaults.
    -isolate multiparameter initialization
       *here we come across a new term , factory -> this is an object whose sole purpose is to create other objects.

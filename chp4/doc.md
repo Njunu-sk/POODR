@@ -3,7 +3,7 @@ Design is concerned with messages that pass between objects, it not only deals w
 The conversation between objects takes place using their interfaces.
 Interface refer to a number of different concepts, here interface is within a class. Classes implement methods, some of the methods are intended to be used by others and these methods make up its public interface.
 
-When starting out anew project, one identifies domain objects. These are nouns in the application that represent both data and behaviour, these are important because they represent the database.
+When starting out a new project, one identifies domain objects. These are nouns in the application that represent both data and behaviour, these are important because they represent the database.
 Domain objects are easy to find but they are not the design center of your application. Design experts notice domain objects without concentrating on them, they focus not on these objects but on the message that pass between them.
 Before you start coding you should form an intention about the objects and the message needed to satisfy this use case.
 
