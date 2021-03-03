@@ -17,7 +17,7 @@ Technique of defining a basic structure in the superclass and sending message to
 This is good practice in general, the default message serve a dual purpose.
 
 Managing Coupling between Superclasses and Subclasses
-Tightly coupled classesstick together and ay be impossible to change independntly.
+Tightly coupled classes stick together and ay be impossible to change independently.
 Knowing things about other classes, creates dependecies and dependencies couple objects together, the dependencies are also booby traps.
 
 Decoupling Subclasses Using Hook Messages
