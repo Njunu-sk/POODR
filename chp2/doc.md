@@ -27,3 +27,8 @@ Code that is Transparent, Reasonable, Usable, and Exemplary not only meets today
 - Are easy to move to another class
 
 Classes that do one thing isolate that thing from the rest of your application, the isolation allows change without consequences and reuse without duplicate.
+
+### Why single responsiblility matters
+
+- Applications that are easy to change consist of classes that are easy to reuse. Reusable classes are pluggable units of well-defined behavior that have few entanglements.
+- An application that is easy to change is like a box of building blocks; you can select just the pieces you need and assemble them in unanticipated ways.

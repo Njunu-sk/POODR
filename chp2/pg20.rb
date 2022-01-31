@@ -1,3 +1,7 @@
+# Introduces a new feature gear_inches
+
+# Compares the bicycles that differ in both gearing and wheel size
+
 class Gear
   attr_reader :chainring, :cog, :rim, :tire
 
