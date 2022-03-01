@@ -32,3 +32,14 @@ Classes that do one thing isolate that thing from the rest of your application, 
 
 - Applications that are easy to change consist of classes that are easy to reuse. Reusable classes are pluggable units of well-defined behavior that have few entanglements.
 - An application that is easy to change is like a box of building blocks; you can select just the pieces you need and assemble them in unanticipated ways.
+
+### How do we determine if a class has a single resposibility
+- Asking questions, Let the class respond to it's methods.
+- Describe a class in one sentence if it uses 'and' its likely to have more than one responsibility / 'or' has more than one responsibility and they are not related.
+- Classes that have a single resposbility are said to be `highly cohesive`
+
+`SRP` requires a class to be highly cohesive.
+
+### Enforcing single responsibility everywhere
+- Extract Extra Responsibilities from methods 
+- Isolate extra Responsibilities in Classes
