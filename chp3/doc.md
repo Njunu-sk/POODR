@@ -11,12 +11,14 @@ An object has dependency when it knows:
 
 The design challenge is to manage dependencies so that each class has the fewest possible, a class should just know enough to do its job and not one thing more.
 
+`Coupling Between Code(CBO)` , each coupling creates a dependancy. The more a class knows about the other the  more tightly coupled they are.
+
 Other types of dependencies
 
 - method chaining
 - test of code
 
-Writing loosely coupled code
+### Writing loosely coupled code
 
 One can write loosely coupled code using the above coding techniques
 
@@ -26,7 +28,7 @@ One can write loosely coupled code using the above coding techniques
   *use of keyword arguments is a simple way to avoid depending on positional arguments.
   *keyword arguments offer several advantages, args can be passed in any order and one can set defaults.
 - isolate multiparameter initialization
-  \*here we come across a new term, factory -> this is an object whose sole purpose is to create other objects.
+  *here we come across a new term, factory -> this is an object whose sole purpose is to create other objects.
 
 Dependency management is core to creating future-proof applications.
 
