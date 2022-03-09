@@ -19,12 +19,14 @@
 ## Using the Template Method Pattern
 - Technique of defining a basic structure in the superclass and sending message to acquire subclass-specific contributions is known as the template method pattern.
 - This is good practice in general, the default message serve a dual purpose.
+- If you use this approach alway document template method requirements by implementing matching methods that raise useful errors.
 
 ## Managing Coupling between Superclasses and Subclasses
 - Tightly coupled classes stick together and may be impossible to change independently.
 - Knowing things about other classes, creates dependecies and dependencies couple objects together, the dependencies are also booby traps.
+- Subclasses are supposed to not only know what they do but also how they are supposed to interact with their superclass.
 
-## Decoupling Subclasses Using Hook Messages
+### Decoupling Subclasses Using Hook Messages
 - Instead of allowing subclasses to know the `algorithm` and requiring that they send `super`, superclasses can instead send `hook messages`, ones that exist solely to provide subclases a place to contribute information by implementing matching methods.
 - This strategy removes knowledge of the algorithm from the subclass and returns control of the superclass.
 
